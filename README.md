@@ -1,2 +1,37 @@
-# vue-ts-boilerplate
-This is a vue2 boilerplate integrate typescript, vuex, vue-router, vue-i18n
+# vue-typescript-boilerplate
+
+> A Vue, Vuex, Vue-i18n, Vue-router, Webpack and Typescript setup with hot reload, unit testing, code coverage, sass and bundling/minification.
+
+## Build Setup
+
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# lint the Typescript
+npm run lint
+
+# run the tests
+npm test
+
+# run the tests on changes
+npm run test:watch
+
+# run the test suite and generate a coverage report
+npm run coverage
+
+# run the tests on Teamcity
+npm run ci:teamcity
+
+# run the tests on Jenkins
+npm run ci:jenkins
+
+# build for production with minification
+npm run build
+
+# clean the production build
+npm run clean
+```
